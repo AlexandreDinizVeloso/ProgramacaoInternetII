@@ -1,1 +1,1 @@
-# ProgramacaoInternetII
+Repositório criado para armazenar atividades de Programação para Internet II.
