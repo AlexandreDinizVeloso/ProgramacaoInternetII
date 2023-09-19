@@ -1,0 +1,13 @@
+doctype html
+head
+    title Aula 04
+body
+    h1#Titulo=title
+    p.data=date
+    ul
+        each day in days
+            if day == dayToday
+                li(style={color: 'blue'})= day
+            else
+                li=day
+            

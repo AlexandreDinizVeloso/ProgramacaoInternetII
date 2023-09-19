@@ -1,0 +1,9 @@
+mixin molde(bd)
+    div.container
+        h1=bd.nome
+        img(src=bd.fotoBg)
+
+head
+    title Aula 04
+body
+    +molde(banco[0])
